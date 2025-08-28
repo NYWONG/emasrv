@@ -69,10 +69,13 @@
 *.tvsconfig
 *.dsk
 *.dsv
+config.dat
 
 # Delphi history and backups
 __history/
 __recovery/
+backup
+lib
 *.~*
 
 # Castalia statistics file (since XE7 Castalia is distributed with Delphi)

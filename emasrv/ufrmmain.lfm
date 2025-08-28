@@ -1,12 +1,13 @@
 object frmmain: Tfrmmain
-  Left = 463
-  Height = 319
-  Top = 255
-  Width = 427
+  Left = 321
+  Height = 445
+  Top = 233
+  Width = 712
   AllowDropFiles = True
   Caption = 'frmmain'
-  ClientHeight = 319
-  ClientWidth = 427
+  ClientHeight = 445
+  ClientWidth = 712
+  DesignTimePPI = 120
   KeyPreview = True
   Position = poScreenCenter
   ShowInTaskBar = stNever
@@ -15,17 +16,17 @@ object frmmain: Tfrmmain
   OnShow = FormShow
   object pnlHead: TPanel
     Left = 0
-    Height = 56
+    Height = 70
     Top = 0
-    Width = 427
+    Width = 712
     Align = alTop
     BevelOuter = bvNone
-    ClientHeight = 56
-    ClientWidth = 427
+    ClientHeight = 70
+    ClientWidth = 712
     TabOrder = 0
     object imgLogo: TImage
       Left = 0
-      Height = 56
+      Height = 70
       Top = 0
       Width = 200
       Align = alLeft
@@ -193,38 +194,38 @@ object frmmain: Tfrmmain
       }
     end
     object lblOS: TLabel
-      Left = 208
-      Height = 17
-      Top = 8
-      Width = 31
+      Left = 260
+      Height = 20
+      Top = 10
+      Width = 39
       Caption = 'lblOS'
     end
     object lblCpu: TLabel
-      Left = 208
-      Height = 17
-      Top = 29
-      Width = 37
+      Left = 260
+      Height = 20
+      Top = 36
+      Width = 47
       Caption = 'lblCpu'
     end
   end
   object pc: TPageControl
     Left = 0
-    Height = 241
-    Top = 56
-    Width = 427
+    Height = 346
+    Top = 70
+    Width = 712
     ActivePage = tsLog
     Align = alClient
     TabIndex = 0
     TabOrder = 1
     object tsLog: TTabSheet
       Caption = '日志'
-      ClientHeight = 211
-      ClientWidth = 419
+      ClientHeight = 313
+      ClientWidth = 704
       object mmoLog: TMemo
         Left = 0
-        Height = 211
+        Height = 313
         Top = 0
-        Width = 419
+        Width = 704
         Align = alClient
         ScrollBars = ssAutoBoth
         TabOrder = 0
@@ -233,48 +234,48 @@ object frmmain: Tfrmmain
   end
   object sb: TStatusBar
     Left = 0
-    Height = 22
-    Top = 297
-    Width = 427
+    Height = 29
+    Top = 416
+    Width = 712
     Panels = <    
       item
         Alignment = taCenter
-        Width = 150
+        Width = 188
       end    
       item
         Alignment = taCenter
-        Width = 80
+        Width = 100
       end    
       item
         Alignment = taCenter
-        Width = 150
+        Width = 188
       end    
       item
         Alignment = taCenter
-        Width = 150
+        Width = 188
       end    
       item
         Alignment = taCenter
-        Width = 80
+        Width = 100
       end    
       item
         Alignment = taCenter
-        Width = 80
+        Width = 100
       end    
       item
         Alignment = taCenter
-        Width = 80
+        Width = 100
       end    
       item
         Alignment = taCenter
-        Width = 80
+        Width = 100
       end>
     SimplePanel = False
   end
   object tmr: TTimer
     Interval = 30000
     OnTimer = tmrTimer
-    Left = 306
-    Top = 10
+    Left = 383
+    Top = 13
   end
 end

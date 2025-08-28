@@ -2,13 +2,37 @@ object dmsrv: Tdmsrv
   OnCreate = DataModuleCreate
   OnDestroy = DataModuleDestroy
   OldCreateOrder = False
-  Height = 248
-  HorizontalOffset = 671
-  VerticalOffset = 224
-  Width = 343
+  Height = 310
+  HorizontalOffset = 839
+  VerticalOffset = 280
+  Width = 429
+  PPI = 120
   object pm: TPopupMenu
-    Left = 24
-    Top = 17
+    Left = 30
+    Top = 21
+    object mi11: TMenuItem
+      Caption = '设置'
+      SubMenuImagesWidth = 11
+      OnClick = mi99Click
+    end
+    object mi12: TMenuItem
+      Tag = 12
+      Caption = '启动服务'
+      OnClick = mi99Click
+    end
+    object mi13: TMenuItem
+      Tag = 13
+      Caption = '停止服务'
+      OnClick = mi99Click
+    end
+    object Separator1: TMenuItem
+      Caption = '-'
+    end
+    object mi99: TMenuItem
+      Tag = 99
+      Caption = '退出'
+      OnClick = mi99Click
+    end
   end
   object ti: TTrayIcon
     PopUpMenu = pm
@@ -117,62 +141,35 @@ object dmsrv: Tdmsrv
       0000000000000000000000000000000000000000000000000000000000000000
       0000
     }
+    Visible = True
     OnDblClick = tiDblClick
-    Left = 72
-    Top = 17
+    Left = 90
+    Top = 21
   end
   object ui: TUniqueInstance
     Enabled = True
-    Left = 128
-    Top = 17
-  end
-  object au: TLazAutoUpdate
-    About.Description.Strings = (
-      'A component for updating your application'#13#10'Designed for projects hosted by SourceForge and GitHub'#13#10#13#10'Main methods:'#13#10'Procedure AutoUpdate'#13#10'Function NewVersionAvailable: Boolean'#13#10'Function DownloadNewVersion: Boolean'#13#10'Function UpdateToNewVersion: Boolean'#13#10'Procedure ShowWhatsNewIfAvailable'#13#10'For troubleshooting, set DebugMode=TRUE'
-    )
-    About.Title = 'About LazAutoUpdate'
-    About.Height = 450
-    About.Width = 400
-    About.Font.Color = clNavy
-    About.Font.Height = -13
-    About.BackGroundColor = clWindow
-    About.Version = '0.3.9.0'
-    About.Authorname = 'Gordon Bamber'
-    About.Organisation = 'Public Domain'
-    About.AuthorEmail = 'minesadorada@charcodelvalle.com'
-    About.ComponentName = 'Laz Auto-update v0.3.9.0'
-    About.LicenseType = abModifiedGPL
-    SFProjectName = '<not applicable>'
-    auOtherSourceURL = '<not applicable>'
-    auOtherSourceFilename = '<not applicable>'
-    ProjectType = auGitHubReleaseZip
-    UpdatesFolder = '<not applicable>'
-    VersionsININame = 'versions.ini'
-    ShowUpdateInCaption = True
-    ShowDialogs = True
-    VersionCountLimit = 1000000
-    DownloadCountLimit = 10000000
-    ZipfileName = 'versions.zip'
-    GitHubBranchOrTag = 'master'
-    WorkingMode = lauInstall
-    ShortCut.ShortcutName = 'emasrv'
-    ShortCut.Category = scAudioVideo
-    Left = 184
-    Top = 17
+    Left = 144
+    Top = 21
   end
   object rtchs: TRtcHttpServer
     MultiThreaded = True
     ServerPort = '5959'
+    OnClientConnect = rtchsClientConnect
+    OnListenStart = rtchsListenStart
+    OnListenStop = rtchsListenStop
     FixupRequest.DecodeFileName = True
     FixupRequest.DecodeQuery = True
-    Left = 24
-    Top = 88
+    OnDataOut = rtchsDataOut
+    OnDataIn = rtchsDataIn
+    Left = 30
+    Top = 110
   end
   object rtcdp: TRtcDataProvider
     Server = rtchs
     OnCheckRequest = rtcdpCheckRequest
     OnDataReceived = rtcdpDataReceived
-    Left = 72
-    Top = 88
+    OnWSDataReceived = rtcdpWSDataReceived
+    Left = 90
+    Top = 110
   end
 end

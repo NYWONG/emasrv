@@ -8,19 +8,21 @@
       <Unit>
         <Filename Value="emasrv.lpr"/>
         <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <CursorPos X="31" Y="4"/>
-        <UsageCount Value="20"/>
+        <CursorPos X="63" Y="30"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="ufrmmain.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="frmmain"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <TopLine Value="52"/>
         <CursorPos X="34" Y="62"/>
-        <UsageCount Value="20"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -28,29 +30,27 @@
         <Filename Value="udmsrv.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="dmsrv"/>
+        <HasResources Value="True"/>
         <ResourceBaseClass Value="DataModule"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="58"/>
-        <CursorPos X="53" Y="75"/>
-        <UsageCount Value="20"/>
+        <TopLine Value="198"/>
+        <CursorPos X="45" Y="187"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="E:\git\mORMot2\src\db\mormot.db.raw.oledb.pas"/>
-        <EditorIndex Value="9"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="79"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="E:\git\mORMot2\src\db\mormot.db.sql.oledb.pas"/>
-        <EditorIndex Value="8"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="667"/>
         <CursorPos X="88" Y="517"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="D:\lazarus\lcl\forms.pp"/>
@@ -62,41 +62,36 @@
       </Unit>
       <Unit>
         <Filename Value="E:\git\mORMot2\src\core\mormot.core.unicode.pas"/>
-        <EditorIndex Value="7"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="899"/>
         <CursorPos X="30" Y="913"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="E:\git\mORMot2\src\core\mormot.core.os.pas"/>
-        <EditorIndex Value="6"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="1116"/>
         <CursorPos X="10" Y="1138"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="E:\git\mORMot2\src\core\mormot.core.variants.pas"/>
-        <EditorIndex Value="5"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="238"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="E:\git\mORMot2\src\core\mormot.core.text.pas"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="16"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="E:\git\mORMot2\src\core\mormot.core.perf.pas"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="-1"/>
         <TopLine Value="1488"/>
         <CursorPos X="24" Y="1151"/>
         <UsageCount Value="10"/>
-        <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="E:\git\mORMot2\src\core\mormot.core.json.pas"/>
@@ -104,76 +99,17 @@
         <TopLine Value="145"/>
         <UsageCount Value="10"/>
       </Unit>
+      <Unit>
+        <Filename Value="D:\Programs\lazarus\lcl\forms.pp"/>
+        <UnitName Value="Forms"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="1611"/>
+        <CursorPos X="24" Y="1634"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="25" Column="40"/>
-      </Position>
-      <Position>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="29" Column="40"/>
-      </Position>
-      <Position>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="17" Column="27"/>
-      </Position>
-      <Position>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="20" Column="51"/>
-      </Position>
-      <Position>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="16" Column="31"/>
-      </Position>
-      <Position>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="25" Column="39"/>
-      </Position>
-      <Position>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="5" Column="30"/>
-      </Position>
-      <Position>
-        <Filename Value="udmsrv.pas"/>
-        <Caret Line="15" Column="23" TopLine="3"/>
-      </Position>
-      <Position>
-        <Filename Value="E:\git\mORMot2\src\core\mormot.core.unicode.pas"/>
-        <Caret Line="98" Column="78" TopLine="76"/>
-      </Position>
-      <Position>
-        <Filename Value="udmsrv.pas"/>
-        <Caret Line="106" Column="34" TopLine="86"/>
-      </Position>
-      <Position>
-        <Filename Value="E:\git\mORMot2\src\core\mormot.core.os.pas"/>
-        <Caret Line="1492" Column="3" TopLine="1476"/>
-      </Position>
-      <Position>
-        <Filename Value="E:\git\mORMot2\src\core\mormot.core.os.pas"/>
-        <Caret Line="1443" Column="3" TopLine="1445"/>
-      </Position>
-      <Position>
-        <Filename Value="udmsrv.pas"/>
-        <Caret Line="106" Column="28" TopLine="86"/>
-      </Position>
-      <Position>
-        <Filename Value="E:\git\mORMot2\src\core\mormot.core.os.pas"/>
-        <Caret Line="1492" Column="3" TopLine="1476"/>
-      </Position>
-      <Position>
-        <Filename Value="udmsrv.pas"/>
-        <Caret Line="106" Column="35" TopLine="86"/>
-      </Position>
-      <Position>
-        <Filename Value="udmsrv.pas"/>
-        <Caret Line="116" Column="13" TopLine="88"/>
-      </Position>
-      <Position>
-        <Filename Value="udmsrv.pas"/>
-        <Caret Line="115" Column="43" TopLine="90"/>
-      </Position>
       <Position>
         <Filename Value="udmsrv.pas"/>
         <Caret Line="93" Column="20" TopLine="69"/>
@@ -189,13 +125,6 @@
       <Position>
         <Filename Value="udmsrv.pas"/>
         <Caret Line="84" Column="36" TopLine="6"/>
-      </Position>
-      <Position>
-        <Filename Value="E:\git\mORMot2\src\core\mormot.core.perf.pas"/>
-      </Position>
-      <Position>
-        <Filename Value="ufrmmain.pas"/>
-        <Caret Line="5" Column="30" TopLine="7"/>
       </Position>
       <Position>
         <Filename Value="ufrmmain.pas"/>
@@ -225,10 +154,97 @@
         <Filename Value="udmsrv.pas"/>
         <Caret Line="62" Column="28" TopLine="57"/>
       </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="34" Column="32" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="104" Column="25" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="112" Column="27" TopLine="99"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="123" Column="21" TopLine="100"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="70" Column="37" TopLine="50"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="124" Column="36" TopLine="119"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="107" Column="52" TopLine="92"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="123" Column="8" TopLine="103"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="115" Column="22" TopLine="113"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="116" Column="22" TopLine="114"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="117" Column="22" TopLine="115"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="118" Column="22" TopLine="116"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="119" Column="22" TopLine="117"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="121" Column="22" TopLine="119"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="190" Column="21" TopLine="174"/>
+      </Position>
+      <Position>
+        <Filename Value="D:\Programs\lazarus\lcl\forms.pp"/>
+        <Caret Line="1984" Column="3" TopLine="1967"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="200" Column="18" TopLine="167"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="191" Column="3" TopLine="168"/>
+      </Position>
+      <Position>
+        <Filename Value="udmsrv.pas"/>
+        <Caret Line="196" Column="3" TopLine="168"/>
+      </Position>
     </JumpHistory>
     <RunParams>
       <FormatVersion Value="2"/>
       <Modes ActiveMode=""/>
     </RunParams>
   </ProjectSession>
+  <Debugging>
+    <BreakPoints>
+      <Item>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="udmsrv.pas"/>
+        <Line Value="173"/>
+      </Item>
+    </BreakPoints>
+  </Debugging>
 </CONFIG>
